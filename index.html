@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+ <head>
+   <title></title>
+   <link href="css/style.css" type="text/css" rel="stylesheet">
+ </head>
+ <body>
+   <header>
+     <ul>
+       <li>About</li>
+       <li>Skills</li>
+       <li>Work</li>
+       <li>Contact</li>
+     </ul>
+   </header>
+   <section class="heroImg">
+    <img id="nice" src="images/art.png">
+     <div class="content">
+       <h1>Nicolas Abtan</h1>
+       <p>Innovative UX and UI designer as well as an acrylic painter and artist.</p>
+       <button id="button1">View Resume</button>
+         <script>
+           document.querySelector('#button1')
+           .addEventListener('click', () => {
+             window.location.href = 'https://docs.google.com/document/d/1xuZJ-bIV47WPmSx22Ts5Q0ldusk3ess3eFMJjdqYEoU/edit?usp=sharing';
+           });
+         </script>
+     </div>
+   </section>
+   <h1 class="heading">My UX Skills</h1>
+   <section class="flexContainer">
+     <div>
+       <h3>User Research</h3>
+       <p>User research is a familliar area of planning and taking action in different forms of research from interviews, surveys, and user testing to competitor analysis and the organization of the results in several different diagrams like empathy maps or affinity diagrams etc.</p>
+     </div>
+     <div>
+       <h3>User Interface Design</h3>
+       <p>With experinece in designing psychology-backed website interfaces, it is familliar to create the best flow and overall design for the user while looking as detailed as the competition.</p>
+     </div>
+     <div>
+       <h3>Web Development</h3>
+       <p>Reading this on a webpage coded by myself, I have experience and understanding in the front end development section of design and know the limitations of current coding.</p>
+     </div>
+   </section>
+   <section class="myWork">
+     <h1 class="heading">My Work</h1>
+     <div class="workGrid">
+       <div class="img1">
+         <img src="images/ifly.png">
+       </div>
+       <div class="content1">
+         <h4>User Research</h4>
+         <p>Designing a travel app prototype based on user research allowed a high level of understanding and compassion with the though process of the user to design a quiz-based travel experience.</p>
+         <button id="button2">View Prototype</button>
+         <script>
+           document.querySelector('#button2')
+           .addEventListener('click', () => {
+             window.location.href = 'https://www.figma.com/proto/VAGCcbpoIv5i5UI9ALvPqV/Mobile-UI-kit-(Community)?page-id=0%3A1&node-id=151%3A546&viewport=184%2C425%2C0.08&scaling=scale-down&starting-point-node-id=151%3A546';
+           });
+         </script>
+       </div>
+       <div class="img2">
+         <img src="images/on.png">
+       </div>
+       <div class="content2">
+         <h4>User Interface</h4>
+         <p>Working on designing the interface of an Ontario government website allowed for a good experience in designing a site that best fits the users needs as well as a more user friendly layout. </p>
+         <button id="button3">View Slideshow</button>
+         <script>
+           document.querySelector('#button3')
+           .addEventListener('click', () => {
+             window.location.href = 'https://docs.google.com/presentation/d/1yBE5DLsMG7fIJxhErXCbSsEj5UNclrActCMBzX-5rwo/edit?usp=sharing';
+           });
+         </script>
+       </div>
+     </div>
+   </section>
+   <footer>
+     <ul>
+       <li>About</li>
+       <li>Skills</li>
+       <li>Work</li>
+       <li>Contact</li>
+     </ul>
+   </footer>
+ </body>
+ <script src="js/index.js"></script>
+</html>

@@ -1,0 +1,99 @@
+body {
+    background-color: #dff2ff;
+  }
+  header {
+    background-color: #00193d;
+    height: 50px;
+    padding: 15px;
+  }
+  header ul {
+    float: right;
+    color: #ffffff;
+  }
+  header li {
+    display: inline-block;
+    padding: 0px 5px;
+  }
+  #nice {
+    width: 100%;
+  }
+  .content {
+    padding: 30px;
+    text-align: center;
+  }
+  footer {
+    background-color: #00193d;
+    height: 50px;
+    padding: 5px;
+  }
+  footer ul {
+    padding-left: 5px;
+    color: #ffffff;
+  }
+  footer li {
+    display: inline-block;
+    padding: 0px 7px;
+  }
+  .heading {
+    text-align: center;
+    padding: 15px;
+    font-size: 30px;
+  }
+  .flexContainer {
+    display: flex;
+    padding: 60px 30px;
+  }
+  .flexContainer div {
+    width: 33%;
+    padding: 25px;
+  }
+  .myWork {
+    padding: 10px;
+    padding-top: 10;
+    background-color: #bfd2ec;
+    height: 950px;
+  }
+  .workGrid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 350px 350px;
+    grid-template-areas:
+    "img1 content1"
+    "img2 content2"
+    ;
+  }
+  .workGrid img {
+    width: 100%;
+    max-width: 250px;
+    margin: 0 auto;
+    display: block;
+  }
+  .img1 {
+    grid-area: img1;
+  }
+  .img2 {
+    grid-area: img2;
+  }
+  .img3 {
+    grid-area: img3;
+  }
+  .img1, .img2, .content1, .content2 {
+    padding: 80px;
+  }
+  .content1 {
+    grid-area: content1;
+  }
+  .content2 {
+    grid-area: content2;
+  }
+  .content3 {
+    grid-area: content3;
+  }
+  button {
+    padding: 20px;
+    background-color: #383882;
+    color: #ffffff;
+    font-size: 15px;
+    border-radius: 4px;
+  }
+ 
